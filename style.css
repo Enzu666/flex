@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -11,9 +15,12 @@ ul, ol, li{
     list-style: none;
 
 }
+.circulo{
+    height: 20%;
+    width: 100%;
+}
 .circulo1{
-    width: 100vw;
-    height: 200px;
+
     background-color: #a580ae;
     display: flex;
     justify-content: right;
@@ -28,8 +35,7 @@ ul, ol, li{
 
 }
 .circulo2{
-    width: 100vw;
-    height: 200px;
+
     background-color: #65c87e;
     display: flex;
     justify-content: right;
@@ -44,8 +50,7 @@ ul, ol, li{
 
 }
 .circulo3{
-    width: 100vw;
-    height: 200px;
+
     background-color: #ce8686;
     display: flex;
     justify-content: center;
@@ -60,17 +65,28 @@ ul, ol, li{
 
 }
 .circulo4{
-    width: 100vw;
-    height: 200px;
     background-color: #efe379;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .circulo4 div{
     width: 100px;
     height: 100px;
     background-color: #ccc60c;
+    border-radius: 50%;
+
+}
+.circulo5{
+    background-color: #89a4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circulo5 div{
+    width: 100px;
+    height: 100px;
+    background-color: #025a96;
     border-radius: 50%;
 
 }
