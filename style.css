@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+
+}
+.circulo1{
+    width: 100vw;
+    height: 200px;
+    background-color: #a580ae;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 10px;
+}
+.circulo1 div{
+    width: 100px;
+    height: 100px;
+    background-color: #491b55;
+    border-radius: 50%;
+
+}
